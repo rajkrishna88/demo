@@ -14,9 +14,17 @@ public class Student {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int sid;
+
+
     private String name;
+
+
     private String city;
+
+
     private String email;
+
+
     private long num;
 
 }
